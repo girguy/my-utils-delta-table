@@ -1,0 +1,21 @@
+[project]
+name = "my-utils-delta-table"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "girguy", email = "guy.girineza@hotmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "polars",
+    "pandas",
+    "pyarrow",
+    "ipykernel",
+    "deltalake",
+    "boto3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

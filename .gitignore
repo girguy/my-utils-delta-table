@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Jupyter notebooks (if experimental)
+test.ipynb
+
+# OS files
+.DS_Store
+
+# VSCode / JetBrains
+.vscode/
+.idea/
+
+# Pytest / coverage
+.cache/
+.coverage
+htmlcov/
+
+# Packaging
+*.egg-info/
+dist/
+build/
+
+# Logs
+*.log
